@@ -1,0 +1,501 @@
+patient_id,age,sex,service,wait_time_minutes,communication_score,pain_management_score,overall_satisfaction
+1,69,Femme,Médecine interne,222,1,5,2.0
+2,32,Femme,Cardiologie,173,3,5,3.0
+3,89,Homme,Pédiatrie,7,10,2,6.0
+4,78,Homme,Médecine interne,124,8,5,7.0
+5,38,Homme,Médecine interne,10,4,4,6.0
+6,41,Femme,Urgences,9,7,1,5.0
+7,20,Femme,Chirurgie,9,10,3,8.0
+8,39,Homme,Chirurgie,58,2,1,4.0
+9,70,Homme,Pédiatrie,51,7,5,6.0
+10,19,Femme,Chirurgie,219,5,4,3.0
+11,47,Femme,Cardiologie,181,5,7,5.0
+12,55,Homme,Chirurgie,13,6,5,6.0
+13,19,Homme,Pédiatrie,103,9,10,9.0
+14,81,Femme,Chirurgie,24,6,4,6.0
+15,77,Homme,Cardiologie,126,8,2,4.0
+16,38,Homme,Urgences,65,7,4,7.0
+17,50,Homme,Pédiatrie,127,9,2,4.0
+18,75,Femme,Urgences,238,4,8,6.0
+19,39,Femme,Urgences,167,2,3,4.0
+20,66,Femme,Urgences,182,7,9,7.0
+21,76,Femme,Médecine interne,86,6,4,6.0
+22,59,Femme,Médecine interne,66,1,6,5.0
+23,77,Femme,Urgences,149,9,10,7.0
+24,32,Femme,Pédiatrie,220,9,5,6.0
+25,79,Homme,Cardiologie,7,2,10,6.0
+26,79,Homme,Cardiologie,164,3,1,3.0
+27,64,Homme,Chirurgie,231,5,9,6.0
+28,79,Homme,Pédiatrie,234,5,1,2.0
+29,68,Homme,Médecine interne,17,1,8,5.0
+30,72,Homme,Urgences,124,8,9,6.0
+31,81,Homme,Chirurgie,129,8,9,9.0
+32,20,Femme,Cardiologie,93,4,1,3.0
+33,68,Femme,Médecine interne,77,7,2,5.0
+34,24,Homme,Médecine interne,72,10,1,7.0
+35,38,Homme,Urgences,146,3,10,6.0
+36,56,Femme,Cardiologie,105,6,2,5.0
+37,35,Homme,Pédiatrie,102,10,10,8.0
+38,21,Homme,Médecine interne,15,10,8,8.0
+39,77,Femme,Urgences,109,9,5,5.0
+40,31,Homme,Pédiatrie,188,1,7,3.0
+41,26,Femme,Cardiologie,71,5,2,4.0
+42,70,Homme,Médecine interne,127,4,8,5.0
+43,19,Femme,Pédiatrie,224,8,6,7.0
+44,77,Femme,Pédiatrie,33,1,8,5.0
+45,88,Femme,Pédiatrie,141,9,1,5.0
+46,61,Homme,Médecine interne,199,6,1,3.0
+47,25,Femme,Médecine interne,157,4,7,4.0
+48,64,Homme,Chirurgie,230,9,8,6.0
+49,52,Homme,Cardiologie,80,5,3,5.0
+50,53,Homme,Urgences,174,5,5,5.0
+51,67,Homme,Pédiatrie,13,5,1,6.0
+52,21,Femme,Chirurgie,211,1,7,5.0
+53,19,Femme,Urgences,44,1,5,5.0
+54,23,Homme,Chirurgie,29,8,8,10.0
+55,71,Homme,Médecine interne,9,8,8,8.0
+56,21,Femme,Pédiatrie,143,6,9,8.0
+57,71,Homme,Urgences,191,4,7,4.0
+58,80,Femme,Urgences,230,2,1,1.0
+59,35,Homme,Urgences,220,2,3,2.0
+60,61,Homme,Urgences,128,9,8,7.0
+61,51,Femme,Urgences,211,5,3,3.0
+62,79,Homme,Chirurgie,42,4,8,6.0
+63,31,Femme,Pédiatrie,76,10,1,7.0
+64,65,Homme,Médecine interne,137,1,5,3.0
+65,32,Homme,Médecine interne,180,7,4,5.0
+66,89,Homme,Médecine interne,94,3,5,6.0
+67,79,Femme,Médecine interne,150,6,8,6.0
+68,57,Homme,Chirurgie,202,5,10,6.0
+69,70,Homme,Cardiologie,41,5,4,6.0
+70,41,Homme,Pédiatrie,64,5,4,8.0
+71,43,Homme,Urgences,180,1,3,2.0
+72,77,Femme,Cardiologie,209,1,7,4.0
+73,58,Femme,Médecine interne,32,3,3,3.0
+74,46,Homme,Cardiologie,201,10,3,5.0
+75,32,Femme,Pédiatrie,209,4,10,5.0
+76,62,Homme,Urgences,85,5,5,7.0
+77,82,Homme,Urgences,118,2,5,3.0
+78,88,Homme,Pédiatrie,44,8,6,8.0
+79,26,Femme,Pédiatrie,49,2,8,6.0
+80,18,Femme,Médecine interne,228,9,10,5.0
+81,25,Femme,Urgences,66,2,6,5.0
+82,80,Femme,Cardiologie,97,9,1,7.0
+83,28,Femme,Chirurgie,119,7,8,6.0
+84,25,Femme,Chirurgie,190,8,8,6.0
+85,52,Femme,Pédiatrie,71,2,9,5.0
+86,52,Femme,Médecine interne,60,7,9,7.0
+87,50,Femme,Chirurgie,44,6,2,7.0
+88,22,Homme,Urgences,102,4,2,4.0
+89,58,Femme,Pédiatrie,44,7,3,8.0
+90,45,Femme,Cardiologie,95,4,1,5.0
+91,24,Femme,Pédiatrie,209,2,4,2.0
+92,89,Femme,Cardiologie,37,10,4,7.0
+93,29,Femme,Pédiatrie,10,7,9,7.0
+94,51,Femme,Pédiatrie,220,8,9,5.0
+95,50,Femme,Pédiatrie,151,2,9,5.0
+96,65,Femme,Cardiologie,84,5,10,7.0
+97,40,Femme,Cardiologie,172,1,7,3.0
+98,79,Femme,Pédiatrie,96,7,2,4.0
+99,54,Femme,Chirurgie,101,8,10,8.0
+100,61,Homme,Médecine interne,63,6,5,6.0
+101,52,Homme,Médecine interne,63,5,4,5.0
+102,82,Femme,Médecine interne,52,6,8,7.0
+103,64,Femme,Cardiologie,173,2,2,1.0
+104,20,Homme,Cardiologie,17,1,6,3.0
+105,18,Femme,Chirurgie,111,7,5,8.0
+106,22,Homme,Médecine interne,49,7,2,5.0
+107,31,Homme,Médecine interne,93,10,10,6.0
+108,44,Homme,Pédiatrie,185,10,1,4.0
+109,26,Homme,Cardiologie,174,2,8,7.0
+110,32,Homme,Médecine interne,104,2,2,2.0
+111,59,Femme,Chirurgie,195,1,7,4.0
+112,68,Homme,Chirurgie,159,10,9,8.0
+113,80,Femme,Médecine interne,170,8,9,6.0
+114,69,Femme,Cardiologie,192,8,8,7.0
+115,21,Homme,Chirurgie,11,1,10,4.0
+116,40,Homme,Pédiatrie,137,8,9,6.0
+117,32,Femme,Chirurgie,239,9,2,4.0
+118,60,Homme,Urgences,49,4,6,4.0
+119,46,Homme,Urgences,62,1,4,3.0
+120,53,Femme,Cardiologie,35,1,4,5.0
+121,30,Femme,Médecine interne,27,3,5,5.0
+122,49,Homme,Cardiologie,174,5,3,5.0
+123,88,Femme,Cardiologie,142,5,1,4.0
+124,76,Homme,Cardiologie,164,9,8,8.0
+125,45,Homme,Cardiologie,111,10,5,7.0
+126,83,Homme,Pédiatrie,185,2,3,2.0
+127,59,Femme,Pédiatrie,162,2,10,6.0
+128,62,Femme,Chirurgie,43,6,7,6.0
+129,79,Femme,Urgences,163,9,7,7.0
+130,74,Femme,Cardiologie,86,1,1,3.0
+131,23,Femme,Chirurgie,104,9,9,9.0
+132,45,Homme,Urgences,6,9,2,6.0
+133,45,Homme,Médecine interne,210,9,5,7.0
+134,61,Homme,Pédiatrie,81,5,5,5.0
+135,47,Homme,Urgences,225,9,8,7.0
+136,79,Femme,Médecine interne,16,4,8,7.0
+137,79,Homme,Urgences,43,2,7,6.0
+138,18,Femme,Pédiatrie,198,6,7,4.0
+139,44,Homme,Pédiatrie,228,4,6,4.0
+140,79,Femme,Chirurgie,17,6,6,8.0
+141,20,Femme,Cardiologie,50,3,9,6.0
+142,87,Homme,Urgences,159,6,6,4.0
+143,89,Homme,Urgences,117,2,2,4.0
+144,44,Homme,Médecine interne,237,2,2,2.0
+145,26,Homme,Pédiatrie,21,9,5,6.0
+146,79,Femme,Urgences,108,7,4,5.0
+147,54,Homme,Pédiatrie,227,3,2,1.0
+148,68,Homme,Urgences,102,1,3,5.0
+149,61,Femme,Chirurgie,192,8,7,7.0
+150,41,Homme,Cardiologie,196,6,8,7.0
+151,76,Homme,Urgences,92,7,6,7.0
+152,49,Homme,Pédiatrie,113,9,5,8.0
+153,69,Homme,Chirurgie,167,5,1,2.0
+154,79,Homme,Urgences,74,1,8,5.0
+155,75,Femme,Médecine interne,215,10,3,6.0
+156,69,Homme,Cardiologie,162,7,6,5.0
+157,29,Homme,Urgences,203,5,3,4.0
+158,56,Homme,Chirurgie,78,3,7,7.0
+159,19,Homme,Médecine interne,237,9,7,6.0
+160,20,Homme,Chirurgie,228,1,9,4.0
+161,73,Femme,Chirurgie,230,1,5,1.0
+162,76,Homme,Médecine interne,67,1,8,7.0
+163,19,Femme,Chirurgie,160,3,10,5.0
+164,19,Femme,Médecine interne,64,6,10,7.0
+165,71,Homme,Urgences,83,10,8,8.0
+166,18,Homme,Médecine interne,226,3,1,1.0
+167,36,Homme,Médecine interne,41,8,5,8.0
+168,19,Homme,Cardiologie,225,10,3,5.0
+169,70,Femme,Médecine interne,26,2,1,3.0
+170,61,Homme,Médecine interne,200,9,4,5.0
+171,49,Homme,Urgences,152,3,8,6.0
+172,87,Homme,Cardiologie,100,5,3,5.0
+173,49,Homme,Pédiatrie,232,10,10,6.0
+174,85,Homme,Urgences,72,8,2,6.0
+175,72,Homme,Urgences,223,2,9,3.0
+176,73,Femme,Pédiatrie,196,6,10,4.0
+177,34,Femme,Médecine interne,21,5,5,8.0
+178,55,Homme,Chirurgie,16,10,7,9.0
+179,41,Homme,Cardiologie,154,9,2,5.0
+180,86,Homme,Chirurgie,149,5,9,5.0
+181,87,Femme,Pédiatrie,142,2,9,6.0
+182,28,Homme,Urgences,122,5,4,8.0
+183,33,Femme,Urgences,197,4,4,4.0
+184,76,Homme,Cardiologie,26,7,6,6.0
+185,87,Homme,Urgences,222,6,10,5.0
+186,20,Homme,Urgences,124,2,10,6.0
+187,37,Homme,Cardiologie,214,5,10,3.0
+188,76,Femme,Cardiologie,54,7,6,7.0
+189,53,Femme,Pédiatrie,18,7,1,6.0
+190,36,Homme,Urgences,196,5,9,7.0
+191,84,Homme,Urgences,179,9,2,6.0
+192,36,Femme,Pédiatrie,33,4,5,6.0
+193,37,Femme,Médecine interne,208,3,9,6.0
+194,88,Femme,Médecine interne,168,4,4,6.0
+195,69,Femme,Médecine interne,231,5,3,3.0
+196,50,Homme,Pédiatrie,184,6,7,6.0
+197,57,Femme,Urgences,129,3,6,3.0
+198,56,Homme,Pédiatrie,208,2,8,2.0
+199,18,Femme,Pédiatrie,11,4,3,5.0
+200,28,Femme,Médecine interne,33,5,5,6.0
+201,74,Femme,Chirurgie,143,4,10,5.0
+202,67,Femme,Urgences,37,3,4,5.0
+203,40,Femme,Médecine interne,138,8,4,5.0
+204,48,Homme,Chirurgie,115,10,4,8.0
+205,59,Homme,Chirurgie,83,4,10,6.0
+206,24,Femme,Cardiologie,164,2,8,2.0
+207,33,Femme,Urgences,183,2,6,3.0
+208,77,Homme,Chirurgie,207,1,3,2.0
+209,19,Femme,Médecine interne,62,4,10,6.0
+210,18,Femme,Cardiologie,219,10,5,6.0
+211,65,Homme,Urgences,30,9,6,7.0
+212,29,Femme,Pédiatrie,230,7,5,5.0
+213,86,Femme,Médecine interne,178,10,6,9.0
+214,54,Homme,Chirurgie,230,7,8,4.0
+215,49,Homme,Chirurgie,33,7,7,7.0
+216,26,Homme,Médecine interne,8,8,5,7.0
+217,36,Femme,Chirurgie,213,1,10,3.0
+218,65,Homme,Cardiologie,103,10,6,9.0
+219,20,Homme,Urgences,145,10,4,7.0
+220,37,Homme,Cardiologie,237,8,9,7.0
+221,41,Homme,Chirurgie,43,4,4,5.0
+222,71,Homme,Pédiatrie,19,4,1,3.0
+223,50,Homme,Urgences,123,4,7,4.0
+224,41,Femme,Urgences,33,6,7,8.0
+225,89,Femme,Médecine interne,161,7,4,5.0
+226,53,Homme,Médecine interne,79,6,3,7.0
+227,55,Homme,Pédiatrie,120,1,8,5.0
+228,42,Homme,Urgences,36,8,5,6.0
+229,35,Femme,Pédiatrie,134,10,10,8.0
+230,83,Femme,Médecine interne,179,7,7,6.0
+231,71,Femme,Médecine interne,210,6,4,5.0
+232,52,Femme,Urgences,88,6,4,6.0
+233,78,Femme,Cardiologie,26,5,8,6.0
+234,58,Femme,Chirurgie,207,6,8,4.0
+235,50,Femme,Médecine interne,31,9,2,7.0
+236,85,Femme,Médecine interne,199,10,2,7.0
+237,50,Femme,Cardiologie,85,9,3,6.0
+238,31,Homme,Cardiologie,130,10,3,7.0
+239,38,Homme,Pédiatrie,188,8,1,5.0
+240,65,Homme,Pédiatrie,96,10,3,7.0
+241,37,Homme,Chirurgie,225,9,6,7.0
+242,25,Femme,Chirurgie,25,10,8,10.0
+243,24,Femme,Urgences,51,8,10,8.0
+244,84,Homme,Pédiatrie,212,8,6,3.0
+245,34,Femme,Médecine interne,105,1,5,3.0
+246,50,Homme,Pédiatrie,191,10,4,6.0
+247,65,Femme,Médecine interne,88,5,3,4.0
+248,76,Homme,Cardiologie,10,4,4,8.0
+249,39,Femme,Pédiatrie,151,2,7,4.0
+250,47,Femme,Cardiologie,189,8,1,5.0
+251,55,Homme,Chirurgie,201,3,7,4.0
+252,68,Femme,Chirurgie,135,4,1,3.0
+253,71,Homme,Urgences,5,7,2,4.0
+254,25,Homme,Pédiatrie,62,10,4,7.0
+255,44,Homme,Cardiologie,128,9,1,9.0
+256,44,Homme,Médecine interne,170,2,9,3.0
+257,38,Femme,Chirurgie,19,3,6,4.0
+258,47,Femme,Chirurgie,166,4,1,5.0
+259,45,Femme,Médecine interne,193,10,1,6.0
+260,81,Homme,Cardiologie,167,1,6,3.0
+261,86,Femme,Cardiologie,68,7,4,8.0
+262,78,Homme,Pédiatrie,29,2,4,4.0
+263,65,Femme,Pédiatrie,28,5,6,6.0
+264,36,Femme,Urgences,16,1,7,6.0
+265,21,Femme,Chirurgie,22,3,9,9.0
+266,52,Homme,Pédiatrie,19,2,10,5.0
+267,81,Femme,Cardiologie,212,1,5,4.0
+268,66,Femme,Médecine interne,31,7,9,8.0
+269,34,Homme,Cardiologie,76,5,4,5.0
+270,61,Femme,Chirurgie,64,1,10,6.0
+271,47,Homme,Cardiologie,178,6,2,2.0
+272,63,Femme,Urgences,221,5,3,4.0
+273,23,Homme,Chirurgie,149,3,1,2.0
+274,54,Homme,Médecine interne,97,7,6,5.0
+275,41,Femme,Urgences,57,10,6,9.0
+276,63,Homme,Chirurgie,12,9,1,8.0
+277,70,Homme,Médecine interne,83,9,3,7.0
+278,77,Homme,Urgences,31,9,5,9.0
+279,80,Homme,Urgences,178,2,3,4.0
+280,49,Homme,Chirurgie,54,3,10,8.0
+281,50,Homme,Pédiatrie,203,7,3,4.0
+282,84,Femme,Urgences,135,5,10,7.0
+283,35,Homme,Urgences,97,2,3,4.0
+284,42,Homme,Médecine interne,196,3,5,5.0
+285,71,Femme,Cardiologie,176,10,5,6.0
+286,75,Femme,Chirurgie,185,6,4,4.0
+287,84,Femme,Chirurgie,28,7,1,5.0
+288,63,Femme,Pédiatrie,64,9,5,7.0
+289,41,Femme,Pédiatrie,126,1,10,5.0
+290,49,Femme,Chirurgie,135,7,5,6.0
+291,64,Femme,Pédiatrie,152,8,4,6.0
+292,40,Homme,Médecine interne,50,3,6,6.0
+293,83,Homme,Chirurgie,19,4,10,7.0
+294,44,Femme,Pédiatrie,157,10,4,5.0
+295,19,Homme,Chirurgie,226,6,7,4.0
+296,34,Homme,Cardiologie,210,10,7,7.0
+297,50,Homme,Urgences,203,7,2,4.0
+298,26,Femme,Chirurgie,21,4,3,3.0
+299,60,Femme,Urgences,130,8,1,6.0
+300,65,Homme,Pédiatrie,88,5,8,8.0
+301,56,Femme,Urgences,232,1,9,2.0
+302,59,Homme,Chirurgie,13,4,4,6.0
+303,43,Homme,Cardiologie,170,3,6,3.0
+304,67,Homme,Pédiatrie,180,9,9,8.0
+305,42,Homme,Chirurgie,192,8,6,4.0
+306,41,Femme,Pédiatrie,67,1,9,5.0
+307,30,Femme,Médecine interne,218,6,4,5.0
+308,77,Femme,Urgences,121,9,8,9.0
+309,24,Homme,Médecine interne,134,7,9,7.0
+310,74,Femme,Chirurgie,92,4,4,4.0
+311,53,Homme,Cardiologie,76,1,5,2.0
+312,62,Femme,Pédiatrie,143,2,8,4.0
+313,37,Homme,Urgences,68,5,10,7.0
+314,82,Homme,Pédiatrie,209,5,6,3.0
+315,25,Homme,Chirurgie,213,8,7,6.0
+316,33,Femme,Pédiatrie,76,6,3,5.0
+317,31,Femme,Urgences,25,8,7,8.0
+318,32,Femme,Chirurgie,22,2,8,7.0
+319,83,Femme,Pédiatrie,226,3,10,4.0
+320,49,Homme,Cardiologie,68,6,6,5.0
+321,80,Femme,Chirurgie,86,10,10,8.0
+322,68,Femme,Chirurgie,114,3,9,6.0
+323,42,Homme,Cardiologie,99,6,6,7.0
+324,75,Homme,Médecine interne,170,6,9,6.0
+325,80,Homme,Urgences,36,2,4,6.0
+326,79,Femme,Médecine interne,15,7,8,8.0
+327,39,Homme,Pédiatrie,49,2,4,6.0
+328,75,Homme,Cardiologie,221,6,2,4.0
+329,75,Homme,Médecine interne,37,1,10,3.0
+330,66,Femme,Chirurgie,106,3,9,7.0
+331,69,Homme,Pédiatrie,173,2,5,2.0
+332,59,Femme,Pédiatrie,140,7,4,4.0
+333,87,Femme,Médecine interne,15,4,2,6.0
+334,32,Homme,Médecine interne,218,8,1,2.0
+335,71,Homme,Cardiologie,183,6,7,5.0
+336,77,Femme,Urgences,92,10,6,9.0
+337,25,Homme,Médecine interne,45,4,2,5.0
+338,70,Homme,Médecine interne,149,5,8,6.0
+339,77,Femme,Chirurgie,80,9,4,6.0
+340,22,Femme,Pédiatrie,125,7,8,5.0
+341,85,Homme,Urgences,50,10,7,9.0
+342,23,Femme,Chirurgie,164,9,5,7.0
+343,64,Homme,Cardiologie,211,7,10,7.0
+344,72,Homme,Cardiologie,84,1,10,6.0
+345,57,Homme,Médecine interne,58,8,8,7.0
+346,69,Femme,Médecine interne,90,4,9,9.0
+347,33,Homme,Cardiologie,96,3,5,5.0
+348,30,Homme,Médecine interne,152,7,10,7.0
+349,47,Homme,Urgences,165,3,5,3.0
+350,36,Femme,Médecine interne,206,8,2,4.0
+351,34,Femme,Pédiatrie,172,6,5,6.0
+352,80,Femme,Médecine interne,164,5,3,4.0
+353,36,Femme,Chirurgie,101,4,7,6.0
+354,75,Femme,Urgences,6,8,10,9.0
+355,72,Homme,Chirurgie,229,8,5,5.0
+356,79,Femme,Chirurgie,37,1,8,6.0
+357,40,Femme,Pédiatrie,237,9,1,5.0
+358,26,Femme,Urgences,209,5,3,3.0
+359,29,Homme,Urgences,162,4,3,3.0
+360,18,Femme,Urgences,165,6,9,6.0
+361,75,Femme,Urgences,81,6,5,6.0
+362,18,Homme,Urgences,120,2,9,4.0
+363,51,Femme,Pédiatrie,158,8,9,6.0
+364,65,Homme,Médecine interne,154,7,1,5.0
+365,18,Homme,Chirurgie,107,1,2,3.0
+366,33,Homme,Urgences,198,5,5,4.0
+367,78,Homme,Médecine interne,170,6,4,4.0
+368,81,Homme,Médecine interne,107,4,10,5.0
+369,80,Femme,Chirurgie,94,2,9,6.0
+370,86,Homme,Pédiatrie,178,4,7,4.0
+371,39,Homme,Cardiologie,126,1,6,6.0
+372,84,Femme,Cardiologie,147,7,7,6.0
+373,43,Homme,Médecine interne,230,2,1,1.0
+374,33,Femme,Chirurgie,110,2,1,3.0
+375,68,Femme,Cardiologie,123,9,8,7.0
+376,74,Femme,Médecine interne,176,5,2,5.0
+377,46,Homme,Pédiatrie,53,2,10,6.0
+378,86,Homme,Cardiologie,108,9,9,7.0
+379,64,Homme,Médecine interne,207,9,7,6.0
+380,79,Femme,Médecine interne,65,1,6,5.0
+381,86,Homme,Urgences,199,3,1,1.0
+382,33,Homme,Pédiatrie,127,4,1,5.0
+383,65,Homme,Urgences,138,7,2,4.0
+384,56,Femme,Chirurgie,13,10,6,10.0
+385,50,Femme,Urgences,10,4,6,7.0
+386,40,Homme,Urgences,77,2,2,4.0
+387,27,Homme,Cardiologie,107,7,1,6.0
+388,86,Homme,Médecine interne,227,6,10,6.0
+389,51,Homme,Pédiatrie,164,3,5,4.0
+390,69,Femme,Urgences,45,6,5,6.0
+391,27,Femme,Pédiatrie,118,6,2,5.0
+392,36,Femme,Urgences,208,5,6,4.0
+393,75,Femme,Chirurgie,12,4,9,7.0
+394,18,Homme,Urgences,76,10,2,9.0
+395,86,Homme,Cardiologie,182,1,10,3.0
+396,21,Homme,Médecine interne,96,10,2,7.0
+397,33,Femme,Chirurgie,66,6,3,6.0
+398,41,Homme,Urgences,88,2,7,4.0
+399,19,Femme,Pédiatrie,66,3,6,6.0
+400,49,Femme,Chirurgie,115,8,8,8.0
+401,41,Homme,Chirurgie,131,10,8,7.0
+402,29,Homme,Urgences,11,6,6,7.0
+403,67,Homme,Chirurgie,207,3,10,4.0
+404,52,Femme,Pédiatrie,88,7,3,6.0
+405,50,Homme,Chirurgie,212,4,3,3.0
+406,50,Femme,Pédiatrie,136,9,1,5.0
+407,78,Homme,Urgences,138,5,7,6.0
+408,68,Femme,Médecine interne,62,3,5,5.0
+409,60,Femme,Chirurgie,26,2,4,6.0
+410,29,Homme,Médecine interne,158,2,10,4.0
+411,84,Femme,Pédiatrie,131,3,4,5.0
+412,82,Femme,Chirurgie,7,2,4,4.0
+413,50,Homme,Cardiologie,131,4,6,3.0
+414,57,Femme,Médecine interne,45,2,8,5.0
+415,60,Homme,Chirurgie,192,10,8,7.0
+416,61,Femme,Médecine interne,110,9,5,6.0
+417,46,Homme,Chirurgie,18,2,6,6.0
+418,30,Homme,Urgences,207,9,4,6.0
+419,29,Femme,Médecine interne,214,6,9,5.0
+420,63,Femme,Cardiologie,16,1,8,5.0
+421,19,Femme,Cardiologie,91,4,10,5.0
+422,52,Femme,Pédiatrie,16,1,10,6.0
+423,25,Femme,Chirurgie,145,6,1,2.0
+424,43,Homme,Médecine interne,29,4,2,4.0
+425,51,Femme,Pédiatrie,49,3,9,8.0
+426,24,Homme,Médecine interne,126,3,8,4.0
+427,85,Homme,Chirurgie,151,9,3,6.0
+428,75,Femme,Cardiologie,59,6,8,6.0
+429,46,Homme,Urgences,104,9,1,7.0
+430,53,Homme,Cardiologie,177,5,10,8.0
+431,38,Homme,Pédiatrie,140,2,4,4.0
+432,53,Homme,Urgences,225,8,3,6.0
+433,27,Femme,Pédiatrie,123,5,6,6.0
+434,41,Homme,Chirurgie,57,2,7,6.0
+435,81,Femme,Urgences,187,4,4,5.0
+436,66,Femme,Pédiatrie,36,9,7,8.0
+437,53,Homme,Chirurgie,55,4,9,5.0
+438,41,Femme,Cardiologie,48,4,2,5.0
+439,40,Femme,Chirurgie,86,2,3,3.0
+440,79,Femme,Médecine interne,202,6,5,4.0
+441,54,Homme,Chirurgie,150,2,3,3.0
+442,29,Femme,Chirurgie,215,7,8,6.0
+443,72,Femme,Médecine interne,154,3,10,5.0
+444,30,Femme,Pédiatrie,41,3,8,7.0
+445,40,Homme,Pédiatrie,100,5,8,5.0
+446,47,Femme,Chirurgie,60,3,9,6.0
+447,34,Homme,Médecine interne,109,2,4,4.0
+448,79,Homme,Médecine interne,63,10,5,9.0
+449,30,Homme,Cardiologie,135,9,5,9.0
+450,76,Homme,Pédiatrie,160,2,8,5.0
+451,36,Homme,Urgences,206,2,7,4.0
+452,66,Homme,Pédiatrie,39,8,9,10.0
+453,29,Femme,Pédiatrie,193,9,8,6.0
+454,78,Homme,Cardiologie,97,7,2,6.0
+455,36,Femme,Urgences,186,3,10,6.0
+456,26,Femme,Cardiologie,195,9,4,7.0
+457,88,Homme,Urgences,211,3,6,2.0
+458,45,Femme,Chirurgie,101,5,2,3.0
+459,69,Femme,Urgences,139,9,7,7.0
+460,33,Femme,Cardiologie,80,3,3,4.0
+461,86,Femme,Pédiatrie,53,7,3,7.0
+462,29,Homme,Urgences,98,1,2,3.0
+463,42,Femme,Urgences,217,4,8,4.0
+464,69,Homme,Médecine interne,163,4,6,5.0
+465,70,Femme,Pédiatrie,190,7,1,4.0
+466,40,Femme,Chirurgie,193,8,1,6.0
+467,33,Homme,Cardiologie,28,1,7,5.0
+468,74,Femme,Chirurgie,152,5,8,5.0
+469,56,Femme,Pédiatrie,41,7,5,7.0
+470,70,Femme,Urgences,8,4,5,6.0
+471,59,Homme,Urgences,224,4,4,1.0
+472,75,Femme,Pédiatrie,112,4,6,5.0
+473,56,Homme,Urgences,130,6,6,5.0
+474,31,Femme,Urgences,24,7,3,6.0
+475,22,Homme,Urgences,192,2,9,5.0
+476,52,Homme,Cardiologie,156,5,7,4.0
+477,35,Femme,Cardiologie,54,4,1,5.0
+478,26,Femme,Médecine interne,181,3,7,4.0
+479,75,Homme,Chirurgie,183,7,5,5.0
+480,34,Homme,Pédiatrie,100,6,5,6.0
+481,24,Femme,Pédiatrie,109,7,2,4.0
+482,63,Homme,Pédiatrie,168,5,4,4.0
+483,30,Femme,Médecine interne,121,6,6,8.0
+484,57,Femme,Cardiologie,102,5,10,5.0
+485,59,Femme,Médecine interne,232,7,7,5.0
+486,26,Femme,Pédiatrie,70,2,5,6.0
+487,67,Homme,Chirurgie,83,5,9,7.0
+488,44,Femme,Urgences,166,6,3,5.0
+489,83,Homme,Cardiologie,168,6,1,1.0
+490,22,Femme,Cardiologie,10,5,4,7.0
+491,46,Homme,Médecine interne,43,10,9,8.0
+492,54,Femme,Cardiologie,174,7,4,5.0
+493,55,Homme,Pédiatrie,119,10,2,6.0
+494,25,Homme,Pédiatrie,190,8,10,9.0
+495,82,Femme,Médecine interne,129,7,5,6.0
+496,34,Femme,Pédiatrie,16,5,3,6.0
+497,88,Femme,Chirurgie,135,1,9,3.0
+498,62,Femme,Médecine interne,22,5,4,6.0
+499,21,Homme,Chirurgie,44,10,6,9.0
+500,53,Femme,Urgences,25,2,2,4.0
