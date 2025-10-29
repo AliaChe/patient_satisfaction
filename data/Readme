@@ -1,0 +1,42 @@
+# Dataset 1
+
+patient_satisfaction_dataset contient:
+
+| Feature                | Description / Rôle                                                                                                               |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `patient_id`           | Identifiant unique du patient.                       |
+| `age`                  | Âge du patient en années.|
+| `sexe`                 | Sexe du patient (Homme/Femme).  |
+| `service`         | Département ou service visité (Cardio, Urgences…) |           
+| `communication_score`	|    1 → 10,	1 = communication médiocre, 10 = excellente communication  |
+| `pain_management_score` |	Note pour la qualité des soins,	1 = très mauvais, 10 = très bien |
+| `overall_satisfaction` |	Note de satisfaction globale, 1 = très insatisfait, 10 = très satisfait |
+
+
+# Dataset 2
+
+
+patient_satisfaction_extended_dataset contient:
+
+| Feature                | Description / Rôle                                                                                                               |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `patient_id`           | Identifiant unique du patient. Sert à suivre l’historique de chaque patient et à lier les visites passées.                       |
+| `age`                  | Âge du patient en années. Peut influencer la perception des soins ou les attentes.                                               |
+| `sexe`                 | Sexe du patient (Homme/Femme). Utile pour analyser des tendances selon le genre.                                                 |
+| `type_patient`         | Type de visite : Consultation, Hospitalisation, Urgence. Impacte les attentes et la satisfaction.                                |
+| `visite_date`          | Date de la visite. Permet d’étudier les tendances dans le temps ou la saisonnalité.                                              |
+| `service`              | Département ou service visité (Cardio, Urgences…). Permet de comparer la satisfaction entre services.                            |
+| `temps_attente`        | Durée d’attente en minutes. Facteur clé souvent corrélé à l’insatisfaction.                                                      |
+| `nombre_transferts`    | Nombre de changements de service ou de médecin durant la visite. Plus de transferts peuvent réduire la satisfaction.             |
+| `personnel_assigné`    | Nom du médecin ou du personnel responsable. Permet d’analyser l’impact individuel du personnel sur la satisfaction.              |
+| `duree_consultation`   | Durée de la consultation ou de l’interaction avec le personnel. Peut influencer la perception de qualité.                        |
+| `satisfaction_globale` | Note globale de satisfaction du patient (1-5). Cible principale à prédire pour le modèle.                                        |
+| `satisfaction_accueil` | Note spécifique pour l’accueil. Sert de feature pour expliquer la satisfaction globale.                                          |
+| `satisfaction_soins`   | Note pour la qualité des soins. Feature explicative importante pour le modèle.                                                   |
+| `reclamations_passées` | Indique si le patient a déjà fait une réclamation (True/False). Utile pour détecter des patients potentiellement plus critiques. |
+| `avis_passes`          | Commentaires ou feedbacks qualitatifs du patient. Peut être utilisé pour analyse textuelle ou NLP.                               |
+| `charge_service`       | Nombre de patients présents dans le service au moment de la visite. Permet d’évaluer l’impact de la charge sur la satisfaction.  |
+| `taux_remplissage`     | Pourcentage de capacité du service utilisé. Plus le service est rempli, plus le risque d’insatisfaction peut augmenter.          |
+| `personnel_disponible` | Nombre de médecins/infirmiers disponibles au moment de la visite. Moins de personnel = risque de mauvaise expérience.            |
+
+---
