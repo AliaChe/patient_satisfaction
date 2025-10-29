@@ -1,0 +1,11 @@
+"patient_id","age","sexe","type_patient","visite_date","service","temps_attente","nombre_transferts","personnel_assigné","duree_consultation","satisfaction_globale","satisfaction_accueil","satisfaction_soins","reclamations_passees","avis_passes","charge_service","taux_remplissage","personnel_disponible"
+101,45,"F","Consultation","2025-10-01","Cardio",30,0,"Dr. Martin",20,4,4,5,"False","Accueil correct",12,80,3
+102,60,"M","Hospitalisation","2025-09-28","Neurologie",50,1,"Dr. Lopez",45,2,2,3,"True","Trop d’attente",20,95,5
+103,30,"F","Urgence","2025-10-03","Urgences",10,0,"Dr. Singh",15,5,5,5,"False","Très rapide et efficace",25,100,6
+104,50,"M","Consultation","2025-09-30","Orthopédie",40,0,"Dr. Kim",25,3,3,4,"False","Correct mais long",15,85,4
+105,70,"F","Hospitalisation","2025-10-02","Gériatrie",60,2,"Dr. Patel",50,1,2,1,"True","Très insatisfait",18,90,3
+106,28,"M","Consultation","2025-10-04","Dermatologie",15,0,"Dr. Moreau",20,4,5,4,"False","Rapide et sympa",10,70,2
+107,35,"F","Urgence","2025-09-29","Urgences",20,0,"Dr. Singh",18,5,5,5,"False","Très bien pris en charge",25,100,6
+108,55,"M","Consultation","2025-10-01","Cardio",45,1,"Dr. Martin",30,3,3,4,"True","Temps d’attente trop long",12,80,3
+109,40,"F","Consultation","2025-10-05","Neurologie",25,0,"Dr. Lopez",22,4,4,4,"False","Bien mais peut mieux faire",20,95,5
+110,65,"M","Hospitalisation","2025-09-27","Gériatrie",55,1,"Dr. Patel",48,2,2,3,"True","Insatisfait du service",18,90,3
